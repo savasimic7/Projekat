@@ -1,0 +1,18 @@
+cd Desktop/komit1      // navigiras do foldera gde si smestio projekat
+git init
+git add .          // ovim se dodaje sve iz foldra na git tkd u folderu gde je porjekat nemoj nista vise da stvaljas
+set GIT_COMMITTER_DATE=2024-05-12T13:50:24      // postavljas datuma komitu
+set GIT_AUTHOR_DATE=2024-05-12T13:50:24         // isto
+git commit -m "Prvi komit"
+git branch -M main
+git remote add origin https://github.com/savasimic7/Projekat.git
+git push -u origin main
+
+Ovo gore je kada prvi komit postaljas za drugi i svaki naredni ne stavljas  git init i git branch -M main i  git remote add origin https://github.com/savasimic7/Projekat.git
+Ovako:
+cd Desktop/komit 
+git add .
+set GIT_COMMITTER_DATE=2024-05-12T13:50:24
+set GIT_AUTHOR_DATE=2024-05-12T13:50:24 
+git commit -m "Drugi komit" 
+git push -u origin main
